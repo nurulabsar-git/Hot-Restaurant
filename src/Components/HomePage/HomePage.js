@@ -13,11 +13,15 @@ useEffect(()=> {
 
 
     return (
-        <div className="container">
-            <h1>This is home page</h1>
-           {
+        <div>
+         <div className="container">
+         <h1>This is home page</h1>
+         </div>
+          <div className="container">
+          {
                products.map(pd => <SubHomePage productAttribute = {pd}></SubHomePage>)
            }
+          </div>
         </div>
     );
 };
