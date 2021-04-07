@@ -1,0 +1,19 @@
+.sub-home-page{
+    box-shadow: 4px 4px 6px gray;
+    border-radius: 4px;
+    margin: 10px;
+    padding: 8px;
+    text-align: center;
+  
+  }
+
+
+
+.main-button{
+    background-color: goldenrod;
+    width: 130px;
+    height: 30px;
+    border: 1px solid red;
+    border-radius: 5px;
+    cursor: pointer;
+}

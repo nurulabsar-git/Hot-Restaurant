@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import SubHomePage from '../SubHomePage/SubHomePage';
-
+import './HomePage.css'
 const HomePage = () => {
 const [products, setProducts] = useState([])
 
@@ -13,7 +13,7 @@ useEffect(()=> {
 
 
     return (
-        <div>
+        <div className="container">
             <h1>This is home page</h1>
            {
                products.map(pd => <SubHomePage productAttribute = {pd}></SubHomePage>)
